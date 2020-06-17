@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  min-width: 100vw;
+  min-height: 100vh;
+}
+.container {
+  display: grid;
+  grid-template: repeat(6, 1fr) / repeat(4, 1fr);
+  gap: 5px;
+  place-self: center;
+}
+.item {
+  background-color: lightblue;
+  padding: 10px;
+  border: 1px solid gray;
+}
+.item:nth-of-type(4) {
+  overflow: auto;
+  display: grid;
+  grid-template: repeat(6, 1fr) / repeat(4, 1fr);
+  gap: 2.5px;
+  /* Tambien se puede hacer un espaciado de filas y columnas, el primer valor es correspondiente a las filas y el segundo a las columnas */
+}
+.item .subitem {
+  background: blueviolet;
+}
