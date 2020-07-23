@@ -10,4 +10,4 @@
 
 - _Unicamente presiona el link que te dejo abajo_
 
-[Ver Proyecto](https://aricanomx.github.io/Arquitectura%20Frontend/Curso%20de%20CSS%20Grid%20Layout/clon_pinterest/index.html)
+[Ver Proyecto](https://aricanomx.github.io/clon_pinterest/index.html)
